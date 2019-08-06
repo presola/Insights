@@ -1,0 +1,14 @@
+{
+    "git.ignoreLimitWarning": true,
+    "python.pythonPath": "venv/bin/python3.7",
+    "python.testing.unittestArgs": [
+        "-v",
+        "-s",
+        "./HousingInsights",
+        "-p",
+        "test*.py"
+    ],
+    "python.testing.pytestEnabled": false,
+    "python.testing.nosetestsEnabled": false,
+    "python.testing.unittestEnabled": true
+}
