@@ -19,4 +19,4 @@ python3 -c "import os;os.environ.setdefault(\"DJANGO_SETTINGS_MODULE\", \"Housin
 echo "Success"
 
 #gunicorn HousingInsights.wsgi
-gunicorn HousingInsights.wsgi:application --bind 0.0.0.0:8000 --workers 4 --timeout 1000 --reload
+gunicorn HousingInsights.wsgi:application --workers 4
