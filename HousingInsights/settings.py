@@ -26,7 +26,7 @@ SECRET_KEY = '7=-9qnq6mt7@@hv6-8)=ci@d(pzk5-lrc=d8e8-ad&37(a0$s9'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['housingforecast.abiwaxdesigns.com', 'housingforecast.herokuapp.com','housing.abiwaxdesigns.com', 'housing.herokuapp.com', '127.0.0.1']
+ALLOWED_HOSTS = ['housingforecast.abiwaxdesigns.com', 'housingforecast.herokuapp.com','housing.abiwaxdesigns.com', 'housingbackend.herokuapp.com', '127.0.0.1']
 
 
 # Application definition
