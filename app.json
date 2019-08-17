@@ -1,7 +1,7 @@
 {
   "name": "Django Python3 Sample",
-  "description": "A simple Django app",
-  "repository": "https://github.com/heroku/node-js-sample",
+  "description": "A Simple Django app",
+  "repository": "https://github.com/presola/Insights",
   "logo": "https://node-js-sample.herokuapp.com/node.png",
   "keywords": ["python3", "graphql", "django"]
 }

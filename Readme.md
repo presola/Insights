@@ -4,6 +4,7 @@ Sample Django Demo Applications
 ## Applications
 ### Housing Insights
 ===================
+
 API Based application built using Django Rest Framework and Swagger.
 Functionalities includes:
 1. Get current house prices in different location, locations have been prepopulated.
@@ -11,7 +12,9 @@ Functionalities includes:
 
 ### Stock Chatty
 ===================
+
 A simple stock API built using GraphQL query language
+
 Functionalities includes:
 1. Get stock prices of a particular company based on a number of days.
 
