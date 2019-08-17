@@ -2,7 +2,6 @@
 
 from rest_framework.viewsets import ModelViewSet
 from .serializers import *
-from rest_framework.response import Response
 import coreapi
 import coreschema
 from rest_framework.schemas import ManualSchema
@@ -111,12 +110,11 @@ class CustomIDSchema(ManualSchema):
 def verify_data():
     strucs = Structure.objects.count()
     if strucs < 3:
-        from timeseries.functions import load
+        pass
     prices = Prices.objects.count()
     if prices < 3:
         Structure.objects.delete()
-        from timeseries.functions import load
-    
+
 
 def get_struc(kwargs):
     verify_data()

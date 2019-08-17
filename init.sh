@@ -3,6 +3,8 @@
 python3 manage.py makemigrations
 python3 manage.py migrate
 
+python3 manage.py loaddata sample_data.json
+
 echo Create first user
 DJANGO_DB_NAME=default
 DJANGO_SU_NAME=admin

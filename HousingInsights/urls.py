@@ -27,6 +27,7 @@ urlpatterns = [
                   path('accounts/login/', RedirectView.as_view(url='/admin/login/?next=/')),
                   path('', schema_view),
                   path('docs/', include_docs_urls(title=title)),
+                  path(r'stocks/', include('stockchatty.urls')),
                   path(r'series/', include('timeseries.urls')),
 ]
 
