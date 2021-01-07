@@ -11,7 +11,7 @@ sklearn
 scikit-learn
 whitenoise
 dj_static
-lxml==4.2.2
+lxml==4.6.2
 scipy==1.1.0
 matplotlib==2.2.2
 django-cors-headers
